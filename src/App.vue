@@ -37,17 +37,8 @@
     <div id="footer">
       <div id="footer-text">
         <center>
-          <p>
-            Built with ♥ and
-            <a href="https://vuejs.org/">Vue.js</a> | CSS animations by
-            <a href="http://animista.net/">Animista</a>| Theme by
-            <a href="https://github.com/spencerwooo/portfolio">Spencerwooo</a>
-          </p>
-        </center>
-        <center>
           <p id="busuanzi_container_site_pv">
-            <span id="busuanzi_value_site_pv"></span> times ♥
-            <img src="https://cdn.zz-yy.top/images/icp.webp" />
+            <span id="busuanzi_value_site_pv"></span> times &nbsp;&nbsp;&nbsp;&nbsp;♥&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="http://beian.miit.gov.cn/">豫ICP备19042490号-1</a>
           </p>
         </center>
