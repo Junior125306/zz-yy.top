@@ -33,8 +33,8 @@ const router = new VueRouter({
     { path: '/stats', component: Stats },
 
     // Not found
-    { path: '/*', component: NotFound }
-  ]
+    { path: '/*', component: NotFound },
+  ],
 })
 
 router.beforeEach((to, from, next) => {
@@ -52,5 +52,5 @@ Vue.prototype.axios = axios
 
 new Vue({
   router,
-  render: h => h(App)
+  render: h => h(App),
 }).$mount('#app')
