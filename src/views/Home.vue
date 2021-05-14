@@ -21,11 +21,11 @@
         link="https://blog.zz-yy.top"
       />
       <Card
-        msg="我的日语笔记"
+        msg="我的学习计划"
         backgroundColor="#ca2c2a"
-        description="📒 每日更新（咕咕咕）"
+        description="📒 共勉！"
         textColor="#FFFFFF"
-        icon="riyu.png"
+        icon="plan.png"
         link="https://blog.zz-yy.top/nihongo/"
       />
       <Card

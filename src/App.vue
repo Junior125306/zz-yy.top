@@ -297,4 +297,7 @@ span {
     opacity: 1;
   }
 }
+#nprogress .bar {
+  background: #00ABEB !important;
+}
 </style>
