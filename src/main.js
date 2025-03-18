@@ -5,16 +5,12 @@ import VueParticles from 'vue-particles'
 import VueNavigationBar from 'vue-navigation-bar'
 import VTooltip from 'v-tooltip'
 import axios from 'axios'
-import Antd from 'ant-design-vue';
 import Home from './views/Home.vue'
 import About from './views/About.vue'
-import Subscribe from './views/Subscribe.vue'
-import Stats from './views/Stats.vue'
+import StudyStep from './views/StudyStep.vue'
 import NotFound from './views/NotFound.vue'
-import 'ant-design-vue/dist/antd.css';
 Vue.config.productionTip = false
 
-Vue.use(Antd);
 Vue.use(VueRouter)
 Vue.use(VueParticles)
 Vue.use(VTooltip)
@@ -31,10 +27,8 @@ const router = new VueRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/about', component: About },
-    { path: '/subscribe', component: Subscribe },
-    { path: '/stats', component: Stats },
-
-    // Not found
+    { path: '/StudyStep', component: StudyStep },
+    // Not found 404
     { path: '/*', component: NotFound },
   ],
 })
