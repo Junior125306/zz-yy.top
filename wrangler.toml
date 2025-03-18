@@ -1,0 +1,12 @@
+name = "portfolio"
+pages_build_output_dir = "./dist"
+compatibility_date = "2023-10-12"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "yarn build"
+
+[build.environment]
+NODE_VERSION = "16.20.0"
+NPM_VERSION = "8.19.4"
+YARN_VERSION = "1.22.4" 
