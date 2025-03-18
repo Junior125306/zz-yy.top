@@ -1,8 +1,3 @@
 name = 'zzyytop'
 
-[build]
-command = "yarn build"
-output_dir = "./dist"
-
-[env]
-YARN_VERSION = "1.22.22"
+main = "./src/main.js"
