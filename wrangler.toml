@@ -1,8 +1,8 @@
 name = 'zzyytop'
-pages_build_output_dir = "./dist"
 
 [build]
 command = "yarn build"
+output_dir = "./dist"
 
-[build.environment]
+[env]
 YARN_VERSION = "1.22.22"
